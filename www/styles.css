@@ -1,0 +1,58 @@
+/*RESET GENERIC CSS*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, block quote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, field set, form, label, legend, table, caption, tbody, toot, thead, tr, th, td { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent }
+ol, ul {list-style:none;}
+blockquote, q{quotes:none;}
+block quote:before, block quote:after, q:before, q:after{content:''; content:none;}
+:focus {outline:0;}
+a {outline:0;}
+a img {outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse; border-spacing:0;}
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width:0px; line-height:0px; font-size:0px;}
+/**/
+
+
+/* ##############
+GERAIS
+################*/
+.row {
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff004f;
+	text-decoration: underline;
+}
+
+html, body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 100%;
+	color: #1d1d1b;
+}
+
+
+
+/* ##############
+HEADER
+################*/
+
+.logo { 
+	text-align: center;
+	height: 155px;
+	width: 487px;
+	opacity: .75;
+	margin: 250px auto;
+}
+
+.logo p {
+	font-weight: bold;
+	color: #cccccc;
+	padding-top: 173px;
+	font-size: 26px;
+}
+

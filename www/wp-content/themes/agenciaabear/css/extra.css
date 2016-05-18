@@ -1,0 +1,223 @@
+/*
+Table of contents
+1. Responsive image height
+2. Small list widget entry-thumb style
+3. Default widgets styles
+4. Related posts
+5. Responsive for commenter avatar
+6. Comment Form
+7. Elements box in single and page right sidebar
+8. WordPress native editor classes
+9. Shortcodes Columns Styles
+10. Make sure images with WordPress-added height and width attributes are scaled correctly.
+11. Tags box
+12. Make sure videos and embeds fit their containers.
+*/
+
+/* 1. Responsive image height */
+.entry-thumb img,
+.flexslider .slides img {
+    height: auto;
+}
+
+/* 2. Small list widget entry-thumb style */
+.widget-area-1 .kp-small-list-widget ul li .entry-thumb {
+    width: 53px;
+}
+
+/* 3. Default widgets styles */
+.widget .children,
+.widget_nav_menu .sub-menu {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.widget_categories .children li {
+    padding-top: 0;
+}
+.widget_pages .children,
+.widget_pages .children li {
+    margin-top: 15px;
+}
+.widget_text * {
+    max-width: 100%;
+    height: auto;
+}
+.widget_calendar table {
+    width: 100%;
+}
+.widget_calendar caption,
+.widget_calendar th,
+.widget_calendar td {
+    text-align: center;
+}
+.widget_calendar #prev {
+    text-align: left;
+}
+.widget_calendar #next {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.b-bottom-sidebar .widget_nav_menu .menu {
+    list-style-type: none;
+}
+.b-bottom-sidebar .widget_nav_menu .menu li {
+    list-style: none;
+}
+.b-bottom-sidebar .widget_nav_menu .sub-menu {
+    list-style-type: disc;
+}
+.b-bottom-sidebar .widget_nav_menu .sub-menu li {
+    list-style: inside disc;
+}
+
+/* 4. Related posts */
+.kopa-related-post .entry-thumb {
+    width: 65px;
+}
+
+/* 5. Responsive for commenter avatar */
+#comments .comment-avatar img {
+    height: auto;
+}
+
+/* 6. Comment form */
+.comments-list .comment #respond {
+    margin-top: 20px;
+}
+
+#cancel-comment-reply-link {
+    color: white;
+}
+
+/* 7. Elements box in single and page right sidebar */
+.single .elements-box,
+.kp-page-right-sidebar .elements-box,
+.elements-box .kp-gallery-slider,
+.elements-box .kp-gallery-carousel {
+    margin: 0;
+}
+
+/* 8. WordPress native editor classes  */
+.wp-caption{
+    max-width: 100%;
+}
+.wp-caption-text{}
+.sticky{}
+.gallery-caption{}
+.bypostauthor{}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.alignleft {
+    margin: 5px 20px 5px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 10px 5px 0;
+}
+
+img.alignright {
+    margin: 5px 0 5px 20px;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 5px 10px;
+}
+
+img.aligncenter {
+    margin: 5px auto;
+}
+
+img.alignnone {
+    margin: 5px 0;
+}
+
+
+/* 9. Shortcodes Columns Styles */
+.kopa-one-two {
+    float:left;
+    margin-right:3%;
+    width:48%;
+}
+.kopa-one-third {
+    float:left;
+    margin-right:2%;
+    width:32%;
+}
+.kopa-two-third {
+    float:left;
+    margin-right:2%;
+    width:66%;
+}
+.kopa-one-fourth {
+    float:left;
+    margin-right:2%;
+    width:23.5%;
+}
+.kopa-three-fourth {
+    float:left;
+    margin-right:2%;
+    width:74.5%;
+}
+
+.kopa-one-two.last,
+.kopa-one-third.last,
+.kopa-two-third.last,
+.kopa-one-fourth.last,
+.kopa-three-fourth.last{
+    margin-right:0 !important;
+}
+
+/* 10. Make sure images with WordPress-added height and width attributes are scaled correctly. */
+.elements-box img,
+.comment-body img {
+    max-width: 100%;
+}
+
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"],
+.elements-box img,
+.comment-body img {
+    height: auto;
+}
+
+img.size-full,
+img.size-large,
+img.wp-post-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 11. Tags box */
+.tag-box a {
+    margin-bottom: 3px;
+}
+
+/* 12. Make sure videos and embeds fit their containers. */
+embed,
+iframe,
+object,
+video {
+    max-width: 100%;
+}
+
+/* 13. Gallery shortcode in single */
+.single .kp-gallery-slider .mask,
+.kp-page-right-sidebar .kp-gallery-slider .mask {
+    margin: 20px 110px;
+    width: 500px !important;
+}

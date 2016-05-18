@@ -1,0 +1,14 @@
+#header-top { margin-top: 40px; height: 60px; }
+#main-menu { margin-left: 150px; }
+#main-menu > li > a { font-weight: 400; text-transform: none; padding-bottom: 23px; }
+.current-menu-item a, .current_menu_item a { background-color: #fff; color: #000; }
+.kp-headline-title { background: #047f3b; color: #ffffff; }
+.search-submit { background-color: #ffd700 !important; color: #047f3b !important; }
+.social-link li { padding: 0 9.1px; }
+.widget_categories ul li { font-family: 'Istok Web', sans-serif; }
+.widget_categories ul li { font-size: 14px; }
+.textwidget input { width: 81%; float: right; border: 1px solid #dfdfdf; background: #fbfbfb; }
+.textwidget textarea { width: 100%; float: left; border: 1px solid #dfdfdf; background: #fbfbfb; }
+.textwidget input[type="submit"] { width: auto; float: left; border: none; background: #047f3b; color: #fff; padding: 5px 10px;  height: 30px; clear: both; text-transform: uppercase; margin: 10px 0; }
+.pagination ul li { font-family: 'Istok Web', sans-serif; font-size: 14px; }
+.t-bottom-sidebar { border-top-color: #ffd700; }

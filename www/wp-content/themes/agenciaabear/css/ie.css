@@ -1,0 +1,42 @@
+.flex-control-paging li a,
+.carousel-nav a,
+.kp-video-widget ul li .entry-item .entry-thumb .play-icon,
+.search-box .search-form .search-text,
+.search-box .search-form .search-submit,
+.kp-gallery-slider .play-icon,
+.kp-gallery-carousel .play-icon,
+.kp-dropcap.color {
+	behavior: url(js/PIE.htc);
+}
+
+.bottom-left-col .col-xs-6 {
+	width: 25%;
+}
+.elements-box .col-sm-6.col-xs-12 {
+	width: 50%;
+	float: left;
+}
+.elements-box .col-sm-4.col-xs-12 {
+	width: 33.3333%;
+	float: left;
+}
+.elements-box .col-sm-3.col-xs-12 {
+	width: 25%;
+	float: left;
+}
+.elements-box .col-sm-8.col-xs-12 {
+	width: 66.6667%;
+	float: left;
+}
+.elements-box .col-sm-9.col-xs-12 {
+	width: 75%;
+	float: left;
+}
+.kp-gallery-slider .flex-direction-nav a {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.kp-gallery-slider:hover .flex-direction-nav a {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}

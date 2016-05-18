@@ -1,0 +1,2320 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FastNews v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-11-08 04:10:19+0000\n"
+"Last-Translator: thanh4890 <thanh4890@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:14
+#: library/ini.php:256
+#@ fastnews
+msgid "404"
+msgstr ""
+
+#: 404.php:17
+#@ fastnews
+msgid "Page not found..."
+msgstr ""
+
+#: 404.php:18
+#@ fastnews
+msgid "We're sorry, but we can't find the page you were looking for. It's probably some thing we've done wrong but now we know about it we'll try to fix it. In the meantime, try one of this options:"
+msgstr ""
+
+#: 404.php:21
+#@ fastnews
+msgid "Go back to previous page"
+msgstr ""
+
+#: 404.php:23
+#@ fastnews
+msgid "Go to homepage"
+msgstr ""
+
+#: comments.php:3
+#@ fastnews
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:13
+#@ fastnews
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:13
+#: library/includes/ajax.php:567
+#: library/includes/ajax.php:600
+#: library/includes/ajax.php:630
+#: library/includes/ajax.php:652
+#: library/includes/ajax.php:694
+#@ fastnews
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:13
+#: library/includes/ajax.php:567
+#: library/includes/ajax.php:600
+#: library/includes/ajax.php:630
+#: library/includes/ajax.php:652
+#: library/includes/ajax.php:694
+#@ fastnews
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:47
+#@ fastnews
+msgid "Pingback"
+msgstr ""
+
+#: comments.php:52
+#: comments.php:88
+#@ fastnews
+msgid "Edit"
+msgstr ""
+
+#: comments.php:84
+#@ fastnews
+msgid "at"
+msgstr ""
+
+#: comments.php:110
+#@ fastnews
+msgid "Name <span>(required):</span>"
+msgstr ""
+
+#: comments.php:115
+#@ fastnews
+msgid "Email <span>(required):</span>"
+msgstr ""
+
+#: comments.php:120
+#@ fastnews
+msgid "Website"
+msgstr ""
+
+#: comments.php:127
+#@ fastnews
+msgid "Your comment <span>(required):</span>"
+msgstr ""
+
+#: comments.php:134
+#, php-format
+#@ fastnews
+msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:135
+#, php-format
+#@ fastnews
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: comments.php:135
+#@ fastnews
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:135
+#@ fastnews
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:136
+#@ fastnews
+msgid "Your email address will not be published. Required fields are marked"
+msgstr ""
+
+#: comments.php:140
+#@ fastnews
+msgid "Leave a reply"
+msgstr ""
+
+#: comments.php:141
+#@ fastnews
+msgid "Reply"
+msgstr ""
+
+#: comments.php:142
+#@ fastnews
+msgid "<span class=\"title-text\">Cancel</span>"
+msgstr ""
+
+#: comments.php:143
+#@ fastnews
+msgid "Post Comment"
+msgstr ""
+
+#: functions.php:49
+#: library/includes/class-tgm-plugin-activation.php:164
+#@ fastnews
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:50
+#: library/includes/class-tgm-plugin-activation.php:165
+#@ fastnews
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:51
+#: library/includes/class-tgm-plugin-activation.php:166
+#, php-format
+#@ fastnews
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:52
+#@ fastnews
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:53
+#: library/includes/class-tgm-plugin-activation.php:168
+#, php-format
+#@ fastnews
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:54
+#: library/includes/class-tgm-plugin-activation.php:169
+#, php-format
+#@ fastnews
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:55
+#: library/includes/class-tgm-plugin-activation.php:170
+#, php-format
+#@ fastnews
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:56
+#: library/includes/class-tgm-plugin-activation.php:171
+#, php-format
+#@ fastnews
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:57
+#: library/includes/class-tgm-plugin-activation.php:172
+#, php-format
+#@ fastnews
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:58
+#: library/includes/class-tgm-plugin-activation.php:173
+#, php-format
+#@ fastnews
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:59
+#: library/includes/class-tgm-plugin-activation.php:174
+#, php-format
+#@ fastnews
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:60
+#: library/includes/class-tgm-plugin-activation.php:175
+#, php-format
+#@ fastnews
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:61
+#: library/includes/class-tgm-plugin-activation.php:176
+#@ fastnews
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:62
+#: library/includes/class-tgm-plugin-activation.php:177
+#@ fastnews
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:63
+#: library/includes/class-tgm-plugin-activation.php:178
+#: library/includes/class-tgm-plugin-activation.php:490
+#@ fastnews
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:64
+#: library/includes/class-tgm-plugin-activation.php:179
+#: library/includes/class-tgm-plugin-activation.php:1846
+#@ fastnews
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:65
+#, php-format
+#@ fastnews
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: header.php:67
+#@ fastnews
+msgid "Menu"
+msgstr ""
+
+#: library/front.php:18
+#@ fastnews
+msgid "Main Menu"
+msgstr ""
+
+#: library/front.php:19
+#@ fastnews
+msgid "Footer Menu"
+msgstr ""
+
+#: library/front.php:295
+#, php-format
+#@ fastnews
+msgid "Page %s"
+msgstr ""
+
+#: library/front.php:300
+#@ fastnews
+msgid "Flexslider Post Image (Kopatheme)"
+msgstr ""
+
+#: library/front.php:301
+#@ fastnews
+msgid "Article List Post Image (Kopatheme)"
+msgstr ""
+
+#: library/front.php:304
+#@ fastnews
+msgid "Entry List Thumbnail Image (Kopatheme)"
+msgstr ""
+
+#: library/front.php:305
+#@ fastnews
+msgid "Blog Image Size (Kopatheme)"
+msgstr ""
+
+#: library/front.php:322
+#: library/front.php:323
+#@ fastnews
+msgid "auto"
+msgstr ""
+
+#: library/front.php:369
+#: library/front.php:1566
+#: library/front.php:1569
+#: library/front.php:1576
+#: library/ini.php:5
+#: library/ini.php:228
+#@ fastnews
+msgid "Home"
+msgstr ""
+
+#: library/front.php:376
+#: library/ini.php:26
+#@ fastnews
+msgid "Blog"
+msgstr ""
+
+#: library/front.php:509
+#, php-format
+#@ fastnews
+msgid "<span class=\"%1$s\">Your search for \"%2$s\""
+msgstr ""
+
+#: library/front.php:514
+#, php-format
+#@ fastnews
+msgid "Posts created by %1$s"
+msgstr ""
+
+#: library/front.php:517
+#@ fastnews
+msgid "Error 404"
+msgstr ""
+
+#: library/includes/widgets.php:270
+#: library/templates/template-blog-slider.php:43
+#@ fastnews
+msgid "in:"
+msgstr ""
+
+#: library/front.php:642
+#@ fastnews
+msgid "Related portfolios"
+msgstr ""
+
+#: library/front.php:708
+#@ fastnews
+msgid "I recommend this page: "
+msgstr ""
+
+#: library/front.php:708
+#@ fastnews
+msgid ". You can read it on: "
+msgstr ""
+
+#: library/front.php:716
+#@ fastnews
+msgid "Share this Post"
+msgstr ""
+
+#: library/front.php:810
+#: library/includes/cpanel/theme-options/post.php:55
+#@ fastnews
+msgid "Facebook"
+msgstr ""
+
+#: library/front.php:817
+#: library/includes/cpanel/theme-options/post.php:56
+#@ fastnews
+msgid "Twitter"
+msgstr ""
+
+#: library/front.php:813
+#@ fastnews
+msgid "Please enter your Facebook URL"
+msgstr ""
+
+#: library/front.php:820
+#@ fastnews
+msgid "Please enter your Twitter URL"
+msgstr ""
+
+#: library/front.php:824
+#@ fastnews
+msgid "Feed URL"
+msgstr ""
+
+#: library/front.php:827
+#@ fastnews
+msgid "Please enter your Feed URL"
+msgstr ""
+
+#: library/front.php:831
+#@ fastnews
+msgid "Google Plus"
+msgstr ""
+
+#: library/front.php:834
+#@ fastnews
+msgid "Please enter your Google Plus URL"
+msgstr ""
+
+#: library/front.php:838
+#@ fastnews
+msgid "Flickr"
+msgstr ""
+
+#: library/front.php:841
+#@ fastnews
+msgid "Please enter your Flickr URL"
+msgstr ""
+
+#: library/front.php:1769
+#@ fastnews
+msgid "Weather Forecast"
+msgstr ""
+
+#: library/includes/ajax.php:309
+#@ fastnews
+msgid "Website:"
+msgstr ""
+
+#: library/includes/ajax.php:315
+#@ fastnews
+msgid "Oops! errors occured."
+msgstr ""
+
+#: library/includes/ajax.php:317
+#@ fastnews
+msgid "Success! Your email address has been sent."
+msgstr ""
+
+#: library/includes/ajax.php:419
+#@ fastnews
+msgid "Pin It"
+msgstr ""
+
+#: library/includes/ajax.php:424
+#@ fastnews
+msgid "I wanted you to see this site"
+msgstr ""
+
+#: library/includes/ajax.php:424
+#@ fastnews
+msgid "Share by Email"
+msgstr ""
+
+#: library/includes/ajax.php:424
+#@ fastnews
+msgid "Mail To"
+msgstr ""
+
+#: library/includes/ajax.php:468
+#, php-format
+#@ fastnews
+msgid "%1$s Likes"
+msgstr ""
+
+#: library/includes/ajax.php:540
+#@ fastnews
+msgid " Article"
+msgstr ""
+
+#: library/includes/ajax.php:541
+#@ fastnews
+msgid " Articles"
+msgstr ""
+
+#: library/includes/ajax.php:567
+#: library/includes/ajax.php:600
+#: library/includes/ajax.php:630
+#: library/includes/ajax.php:652
+#: library/includes/ajax.php:694
+#@ fastnews
+msgid "No Comment"
+msgstr ""
+
+#: library/includes/ajax.php:567
+#: library/includes/ajax.php:600
+#: library/includes/ajax.php:630
+#: library/includes/ajax.php:652
+#: library/includes/ajax.php:694
+#@ fastnews
+msgid "Comments Off"
+msgstr ""
+
+#: library/includes/ajax.php:603
+#: library/includes/ajax.php:661
+#: library/includes/ajax.php:697
+#@ fastnews
+msgid "Continue Reading &raquo;"
+msgstr ""
+
+#: library/includes/ajax.php:754
+#@ fastnews
+msgid "Sorry an error has occurred."
+msgstr ""
+
+#: library/includes/ajax.php:779
+#@ fastnews
+msgid "You cannot vote twice."
+msgstr ""
+
+#: library/includes/ajax.php:832
+#: library/includes/ajax.php:833
+#@ fastnews
+msgid "Rated %.2f out of 5"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:167
+#@ fastnews
+msgid "Something went wrong."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:180
+#, php-format
+#@ fastnews
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:517
+#: library/includes/class-tgm-plugin-activation.php:2058
+#@ fastnews
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:545
+#, php-format
+#@ fastnews
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:704
+#@ fastnews
+msgid "Dismiss this notice"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1091
+#@ fastnews
+msgid "External Link"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1096
+#@ fastnews
+msgid "Private Repository"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1099
+#@ fastnews
+msgid "Pre-Packaged"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1103
+#@ fastnews
+msgid "WordPress Repository"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1106
+#@ fastnews
+msgid "Required"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1106
+#@ fastnews
+msgid "Recommended"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1109
+#@ fastnews
+msgid "Not Installed"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1111
+#@ fastnews
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1281
+#, php-format
+#@ fastnews
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1297
+#@ fastnews
+msgid "Plugin"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1298
+#@ fastnews
+msgid "Source"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1299
+#@ fastnews
+msgid "Type"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1300
+#@ fastnews
+msgid "Status"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1318
+#@ fastnews
+msgid "Install"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1319
+#@ fastnews
+msgid "Activate"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1544
+#@ fastnews
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:1829
+#@ fastnews
+msgid "Install package not available."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1830
+#, php-format
+#@ fastnews
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1831
+#@ fastnews
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1832
+#@ fastnews
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1833
+#@ fastnews
+msgid "Plugin install failed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1834
+#@ fastnews
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1845
+#@ fastnews
+msgid "Plugin activation failed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1955
+#@ fastnews
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1956
+#, php-format
+#@ fastnews
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1956
+#: library/includes/class-tgm-plugin-activation.php:1965
+#@ fastnews
+msgid "Show Details"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1956
+#: library/includes/class-tgm-plugin-activation.php:1965
+#@ fastnews
+msgid "Hide Details"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1957
+#@ fastnews
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1958
+#, php-format
+#@ fastnews
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1962
+#@ fastnews
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1963
+#, php-format
+#@ fastnews
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1964
+#, php-format
+#@ fastnews
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1965
+#, php-format
+#@ fastnews
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1966
+#@ fastnews
+msgid "All installations have been completed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1967
+#, php-format
+#@ fastnews
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-color.php:4
+#@ fastnews
+msgid "Main Color"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-color.php:15
+#@ fastnews
+msgid "Body Text Color"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-color.php:25
+#@ fastnews
+msgid "Heading Color"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-color.php:29
+#@ fastnews
+msgid "Widget title color (sidebar)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-color.php:33
+#@ fastnews
+msgid "Widget title color (content)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-color.php:37
+#@ fastnews
+msgid "H1 Heading Color"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-color.php:41
+#@ fastnews
+msgid "H2 Heading Color"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-color.php:45
+#@ fastnews
+msgid "H3 Heading Color"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-color.php:49
+#@ fastnews
+msgid "H4 Heading Color"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-color.php:53
+#@ fastnews
+msgid "H5 Heading Color"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-color.php:57
+#@ fastnews
+msgid "H6 Heading Color"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-css.php:5
+#: library/includes/cpanel/theme-options.php:16
+#@ fastnews
+msgid "Custom CSS"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-css.php:10
+#@ fastnews
+msgid "Enter the your custom CSS code"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:4
+#@ fastnews
+msgid "Custom Fonts"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:8
+#@ fastnews
+msgid "Heading font"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:21
+#@ fastnews
+msgid "Sample Heading Font"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:35
+#: library/includes/cpanel/theme-options/custom-font.php:126
+#: library/includes/cpanel/theme-options/custom-font.php:164
+#: library/includes/cpanel/theme-options/custom-font.php:211
+#@ fastnews
+msgid "Font size"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:36
+#@ fastnews
+msgid "H1 size:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:38
+#: library/includes/cpanel/theme-options/custom-font.php:43
+#: library/includes/cpanel/theme-options/custom-font.php:48
+#: library/includes/cpanel/theme-options/custom-font.php:53
+#: library/includes/cpanel/theme-options/custom-font.php:58
+#: library/includes/cpanel/theme-options/custom-font.php:63
+#: library/includes/cpanel/theme-options/custom-font.php:129
+#: library/includes/cpanel/theme-options/custom-font.php:167
+#: library/includes/cpanel/theme-options/custom-font.php:214
+#: library/includes/cpanel/theme-options/general.php:21
+#: library/includes/cpanel/theme-options/general.php:27
+#: library/includes/cpanel/theme-options/general.php:33
+#: library/includes/cpanel/theme-options/general.php:39
+#@ fastnews
+msgid "px"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:41
+#@ fastnews
+msgid "H2 size:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:46
+#@ fastnews
+msgid "H3 size:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:51
+#@ fastnews
+msgid "H4 size:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:56
+#@ fastnews
+msgid "H5 size:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:61
+#@ fastnews
+msgid "H6 size:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:66
+#: library/includes/cpanel/theme-options/custom-font.php:171
+#@ fastnews
+msgid "Font Weight"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:67
+#@ fastnews
+msgid "H1 weight:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:71
+#@ fastnews
+msgid "H2 weight:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:75
+#@ fastnews
+msgid "H3 weight:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:79
+#@ fastnews
+msgid "H4 weight:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:83
+#@ fastnews
+msgid "H5 weight:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:87
+#@ fastnews
+msgid "H6 weight:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:100
+#@ fastnews
+msgid "Content font"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:112
+#@ fastnews
+msgid "Sample Content Font"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:127
+#@ fastnews
+msgid "Content font size:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:131
+#: library/includes/cpanel/theme-options/custom-font.php:218
+#@ fastnews
+msgid "Font weight"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:132
+#@ fastnews
+msgid "Content font weight:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:137
+#@ fastnews
+msgid "Main navigation font"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:149
+#@ fastnews
+msgid "Sample Main Navigation Font"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:165
+#@ fastnews
+msgid "Main nagivation size:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:172
+#@ fastnews
+msgid "Main nagivation font weight:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:184
+#@ fastnews
+msgid "Widget title font"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:196
+#@ fastnews
+msgid "Sample widget title font"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:212
+#@ fastnews
+msgid "Widget title font size:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-font.php:219
+#@ fastnews
+msgid "Widget title font weight:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:6
+#@ fastnews
+msgid "Logo, Favicon, Apple Icon"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:12
+#@ fastnews
+msgid "Logo"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:13
+#: library/includes/cpanel/theme-options/general.php:50
+#@ fastnews
+msgid "Upload your own logo."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:16
+#: library/includes/cpanel/theme-options/general.php:53
+#: library/includes/cpanel/theme-options/general.php:63
+#: library/includes/cpanel/theme-options/general.php:74
+#: library/includes/cpanel/theme-options/general.php:79
+#: library/includes/cpanel/theme-options/general.php:85
+#: library/includes/cpanel/theme-options/general.php:91
+#@ fastnews
+msgid "Upload"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:18
+#@ fastnews
+msgid "Logo margin"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:19
+#@ fastnews
+msgid "Top margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:25
+#@ fastnews
+msgid "Left margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:31
+#@ fastnews
+msgid "Right margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:37
+#@ fastnews
+msgid "Bottom margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:58
+#@ fastnews
+msgid "Favicon"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:60
+#@ fastnews
+msgid "Upload your own favicon."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:69
+#@ fastnews
+msgid "Apple Icons"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:71
+#@ fastnews
+msgid "Iphone (57px - 57px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:76
+#@ fastnews
+msgid "Iphone Retina (114px - 114px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:82
+#@ fastnews
+msgid "Ipad (72px - 72px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:88
+#@ fastnews
+msgid "Ipad Retina (144px - 144px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:13
+#: library/includes/cpanel/theme-options/general.php:133
+#: library/includes/cpanel/theme-options/general.php:184
+#: library/includes/cpanel/theme-options/post.php:12
+#: library/includes/cpanel/theme-options/post.php:34
+#: library/includes/cpanel/theme-options/post.php:63
+#@ fastnews
+msgid "Show"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:14
+#: library/includes/cpanel/theme-options/general.php:134
+#: library/includes/cpanel/theme-options/general.php:185
+#: library/includes/cpanel/theme-options/post.php:13
+#: library/includes/cpanel/theme-options/post.php:35
+#: library/includes/cpanel/theme-options/post.php:64
+#@ fastnews
+msgid "Hide"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:205
+#@ fastnews
+msgid "Footer"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:211
+#@ fastnews
+msgid "Custom Left Footer"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:212
+#@ fastnews
+msgid "Enter the content you want to display in your left footer (e.g. copyright text)."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:217
+#@ fastnews
+msgid "Google Analytics"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:218
+#@ fastnews
+msgid "Enter Google Analytics code. This should be something like: &ltscript type=\"text/javascript\"&gt;  ...  &lt;/script&gt;"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:5
+#@ fastnews
+msgid "Featured Post Thumbnail"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:28
+#@ fastnews
+msgid "About Author"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:50
+#@ fastnews
+msgid "Sharing Buttons"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:57
+#@ fastnews
+msgid "Google"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:58
+#@ fastnews
+msgid "LinkedIn"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:59
+#@ fastnews
+msgid "Pinterest"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:60
+#@ fastnews
+msgid "Email"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:88
+#@ fastnews
+msgid "Related Posts"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:94
+#@ fastnews
+msgid "Get By"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:98
+#@ fastnews
+msgid "-- Hide --"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:99
+#@ fastnews
+msgid "Tag"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:100
+#@ fastnews
+msgid "Category"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:110
+#@ fastnews
+msgid "Limit"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:34
+#: library/includes/cpanel/theme-options.php:13
+#@ fastnews
+msgid "Social Links"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:41
+#@ fastnews
+msgid "RSS URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:42
+#@ fastnews
+msgid "Display the RSS feed button with the default RSS feed or enter a custom feed below. <br><code>Enter <b>\"HIDE\"</b> if you want to hide it</code>"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:72
+#@ fastnews
+msgid "Google Plus URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:60
+#@ fastnews
+msgid "Pinterest URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:48
+#@ fastnews
+msgid "Facebook_URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:54
+#@ fastnews
+msgid "Twitter URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:10
+#@ fastnews
+msgid "General Setting"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:12
+#@ fastnews
+msgid "Single Post"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:14
+#@ fastnews
+msgid "Custom Color"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:15
+#@ fastnews
+msgid "Custom Font"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:23
+#: library/kopa.php:22
+#: library/kopa.php:26
+#@ fastnews
+msgid "Theme Options"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:27
+#@ fastnews
+msgid "Visit author URL:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:34
+#: library/includes/cpanel/theme-options.php:54
+#@ fastnews
+msgid "Save"
+msgstr ""
+
+#: library/includes/widgets.php:154
+#@ fastnews
+msgid "Arbitrary text, HTML or shortcodes"
+msgstr ""
+
+#: library/includes/widgets.php:156
+#@ fastnews
+msgid "Kopa Text"
+msgstr ""
+
+#: library/includes/widgets.php:192
+#: library/includes/widgets.php:321
+#: library/includes/widgets.php:590
+#: library/includes/widgets.php:763
+#: library/includes/widgets.php:938
+#: library/includes/widgets.php:1157
+#: library/includes/widgets.php:1317
+#: library/includes/widgets.php:1463
+#: library/includes/widgets.php:1570
+#: library/includes/widgets.php:1766
+#: library/includes/widgets.php:1877
+#: library/includes/widgets.php:1963
+#@ fastnews
+msgid "Title:"
+msgstr ""
+
+#: library/includes/widgets.php:226
+#@ fastnews
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: library/includes/widgets.php:239
+#@ fastnews
+msgid "A Posts Slider Widget"
+msgstr ""
+
+#: library/includes/widgets.php:241
+#@ fastnews
+msgid "Kopa Flexslider"
+msgstr ""
+
+#: library/includes/widgets.php:326
+#: library/includes/widgets.php:594
+#: library/includes/widgets.php:767
+#: library/includes/widgets.php:942
+#: library/includes/widgets.php:1161
+#: library/includes/widgets.php:1321
+#: library/includes/widgets.php:1770
+#@ fastnews
+msgid "Categories:"
+msgstr ""
+
+#: library/includes/widgets.php:328
+#: library/includes/widgets.php:355
+#: library/includes/widgets.php:596
+#: library/includes/widgets.php:623
+#: library/includes/widgets.php:769
+#: library/includes/widgets.php:796
+#: library/includes/widgets.php:944
+#: library/includes/widgets.php:971
+#: library/includes/widgets.php:1163
+#: library/includes/widgets.php:1190
+#: library/includes/widgets.php:1323
+#: library/includes/widgets.php:1350
+#: library/includes/widgets.php:1772
+#: library/ini.php:410
+#@ fastnews
+msgid "-- None --"
+msgstr ""
+
+#: library/includes/widgets.php:339
+#: library/includes/widgets.php:607
+#: library/includes/widgets.php:780
+#: library/includes/widgets.php:955
+#: library/includes/widgets.php:1174
+#: library/includes/widgets.php:1334
+#@ fastnews
+msgid "Relation:"
+msgstr ""
+
+#: library/includes/widgets.php:343
+#: library/includes/widgets.php:611
+#: library/includes/widgets.php:784
+#: library/includes/widgets.php:959
+#: library/includes/widgets.php:1178
+#: library/includes/widgets.php:1338
+#@ fastnews
+msgid "And"
+msgstr ""
+
+#: library/includes/widgets.php:344
+#: library/includes/widgets.php:612
+#: library/includes/widgets.php:785
+#: library/includes/widgets.php:960
+#: library/includes/widgets.php:1179
+#: library/includes/widgets.php:1339
+#@ fastnews
+msgid "Or"
+msgstr ""
+
+#: library/includes/widgets.php:353
+#: library/includes/widgets.php:621
+#: library/includes/widgets.php:794
+#: library/includes/widgets.php:969
+#: library/includes/widgets.php:1188
+#: library/includes/widgets.php:1348
+#@ fastnews
+msgid "Tags:"
+msgstr ""
+
+#: library/includes/widgets.php:365
+#: library/includes/widgets.php:633
+#: library/includes/widgets.php:806
+#: library/includes/widgets.php:981
+#: library/includes/widgets.php:1200
+#: library/includes/widgets.php:1360
+#@ fastnews
+msgid "Number of article:"
+msgstr ""
+
+#: library/includes/widgets.php:369
+#: library/includes/widgets.php:637
+#: library/includes/widgets.php:810
+#: library/includes/widgets.php:985
+#: library/includes/widgets.php:1204
+#: library/includes/widgets.php:1364
+#: library/includes/widgets.php:1787
+#@ fastnews
+msgid "Orderby:"
+msgstr ""
+
+#: library/includes/widgets.php:374
+#: library/includes/widgets.php:642
+#: library/includes/widgets.php:815
+#: library/includes/widgets.php:990
+#: library/includes/widgets.php:1209
+#: library/includes/widgets.php:1369
+#: library/includes/widgets.php:1792
+#@ fastnews
+msgid "Popular by View Count"
+msgstr ""
+
+#: library/includes/widgets.php:375
+#: library/includes/widgets.php:643
+#: library/includes/widgets.php:816
+#: library/includes/widgets.php:991
+#: library/includes/widgets.php:1210
+#: library/includes/widgets.php:1370
+#: library/includes/widgets.php:1793
+#@ fastnews
+msgid "Popular by Comment Count"
+msgstr ""
+
+#: library/includes/widgets.php:376
+#: library/includes/widgets.php:644
+#: library/includes/widgets.php:817
+#: library/includes/widgets.php:992
+#: library/includes/widgets.php:1211
+#: library/includes/widgets.php:1371
+#: library/includes/widgets.php:1794
+#@ fastnews
+msgid "Random"
+msgstr ""
+
+#: library/includes/widgets.php:387
+#@ fastnews
+msgid "Animation:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:60
+#: library/includes/widgets.php:391
+#@ fastnews
+msgid "Slide"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:59
+#: library/includes/widgets.php:392
+#@ fastnews
+msgid "Fade"
+msgstr ""
+
+#: library/includes/widgets.php:402
+#@ fastnews
+msgid "Direction:"
+msgstr ""
+
+#: library/includes/widgets.php:406
+#@ fastnews
+msgid "Horizontal"
+msgstr ""
+
+#: library/includes/widgets.php:407
+#@ fastnews
+msgid "Vertical"
+msgstr ""
+
+#: library/includes/widgets.php:417
+#@ fastnews
+msgid "Speed of the slideshow cycling:"
+msgstr ""
+
+#: library/includes/widgets.php:422
+#@ fastnews
+msgid "Speed of animations:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:79
+#: library/includes/widgets.php:428
+#: library/includes/widgets.php:1018
+#@ fastnews
+msgid "Auto Play"
+msgstr ""
+
+#: library/includes/widgets.php:464
+#@ fastnews
+msgid "Kopa Articles List"
+msgstr ""
+
+#: library/includes/widgets.php:852
+#@ fastnews
+msgid "Display Articles Carousel Widget"
+msgstr ""
+
+#: library/includes/widgets.php:854
+#@ fastnews
+msgid "Kopa Articles Carousel"
+msgstr ""
+
+#: library/includes/widgets.php:1004
+#@ fastnews
+msgid "Scroll Items:"
+msgstr ""
+
+#: library/includes/widgets.php:1066
+#: library/includes/widgets.php:1247
+#@ fastnews
+msgid "Display Featured Articles Widget"
+msgstr ""
+
+#: library/includes/widgets.php:1068
+#@ fastnews
+msgid "Kopa Entry List"
+msgstr ""
+
+#: library/includes/widgets.php:1406
+#@ fastnews
+msgid "Display one advertising image"
+msgstr ""
+
+#: library/includes/widgets.php:1408
+#@ fastnews
+msgid "Kopa Advertising"
+msgstr ""
+
+#: library/includes/widgets.php:1471
+#@ fastnews
+msgid "Image Source:"
+msgstr ""
+
+#: library/includes/widgets.php:1475
+#@ fastnews
+msgid "Url:"
+msgstr ""
+
+#: library/includes/widgets.php:1516
+#@ fastnews
+msgid "Kopa Gallery"
+msgstr ""
+
+#: library/includes/widgets.php:1574
+#@ fastnews
+msgid "Select one gallery post:"
+msgstr ""
+
+#: library/includes/widgets.php:1249
+#@ fastnews
+msgid "Kopa Entry List 2"
+msgstr ""
+
+#: library/ini.php:117
+#@ fastnews
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: library/ini.php:135
+#@ fastnews
+msgid "Page Fullwidth"
+msgstr ""
+
+#: library/ini.php:170
+#@ fastnews
+msgid "Single Right Sidebar"
+msgstr ""
+
+#: library/ini.php:188
+#@ fastnews
+msgid "404 Page"
+msgstr ""
+
+#: library/ini.php:207
+#@ fastnews
+msgid "Widget Area 1"
+msgstr ""
+
+#: library/ini.php:208
+#@ fastnews
+msgid "Widget Area 2"
+msgstr ""
+
+#: library/ini.php:209
+#@ fastnews
+msgid "Widget Area 3"
+msgstr ""
+
+#: library/ini.php:210
+#@ fastnews
+msgid "Widget Area 4"
+msgstr ""
+
+#: library/ini.php:211
+#@ fastnews
+msgid "Widget Area 5"
+msgstr ""
+
+#: library/ini.php:212
+#@ fastnews
+msgid "Widget Area 6"
+msgstr ""
+
+#: library/ini.php:213
+#@ fastnews
+msgid "Widget Area 7"
+msgstr ""
+
+#: library/ini.php:214
+#@ fastnews
+msgid "Widget Area 8"
+msgstr ""
+
+#: library/ini.php:215
+#@ fastnews
+msgid "Widget Area 9"
+msgstr ""
+
+#: library/ini.php:216
+#@ fastnews
+msgid "Widget Area 10"
+msgstr ""
+
+#: library/ini.php:217
+#@ fastnews
+msgid "Widget Area 11"
+msgstr ""
+
+#: library/ini.php:218
+#@ fastnews
+msgid "Widget Area 12"
+msgstr ""
+
+#: library/ini.php:219
+#@ fastnews
+msgid "Widget Area 13"
+msgstr ""
+
+#: library/ini.php:232
+#@ fastnews
+msgid "Front Page"
+msgstr ""
+
+#: library/ini.php:236
+#@ fastnews
+msgid "Post"
+msgstr ""
+
+#: library/ini.php:240
+#@ fastnews
+msgid "Page"
+msgstr ""
+
+#: library/ini.php:244
+#@ fastnews
+msgid "Taxonomy"
+msgstr ""
+
+#: header.php:77
+#: library/ini.php:248
+#: searchform.php:4
+#@ fastnews
+msgid "Search"
+msgstr ""
+
+#: library/ini.php:252
+#@ fastnews
+msgid "Archive"
+msgstr ""
+
+#: library/ini.php:411
+#@ fastnews
+msgid "Sidebar 1"
+msgstr ""
+
+#: library/ini.php:412
+#@ fastnews
+msgid "Sidebar 2"
+msgstr ""
+
+#: library/ini.php:413
+#@ fastnews
+msgid "Sidebar 3"
+msgstr ""
+
+#: library/ini.php:414
+#@ fastnews
+msgid "Sidebar 4"
+msgstr ""
+
+#: library/ini.php:415
+#@ fastnews
+msgid "Sidebar 5"
+msgstr ""
+
+#: library/ini.php:416
+#@ fastnews
+msgid "Sidebar 6"
+msgstr ""
+
+#: library/ini.php:417
+#@ fastnews
+msgid "Sidebar 7"
+msgstr ""
+
+#: library/ini.php:418
+#@ fastnews
+msgid "Sidebar 8"
+msgstr ""
+
+#: library/ini.php:419
+#@ fastnews
+msgid "Sidebar 9"
+msgstr ""
+
+#: library/ini.php:420
+#@ fastnews
+msgid "Sidebar 10"
+msgstr ""
+
+#: library/ini.php:421
+#@ fastnews
+msgid "Sidebar 11"
+msgstr ""
+
+#: library/ini.php:422
+#@ fastnews
+msgid "Sidebar 12"
+msgstr ""
+
+#: library/ini.php:423
+#@ fastnews
+msgid "Sidebar 13"
+msgstr ""
+
+#: library/kopa.php:33
+#@ fastnews
+msgid "Sidebar Manage"
+msgstr ""
+
+#: library/kopa.php:33
+#@ fastnews
+msgid "Sidebar Manager"
+msgstr ""
+
+#: library/kopa.php:40
+#@ fastnews
+msgid "Layout Manage"
+msgstr ""
+
+#: library/kopa.php:40
+#@ fastnews
+msgid "Layout Manager"
+msgstr ""
+
+#: library/templates/format-single-audio.php:35
+#: library/templates/format-single-gallery.php:34
+#: library/templates/format-single-standard.php:21
+#: library/templates/format-single-video.php:36
+#: library/templates/loop-page.php:12
+#@ fastnews
+msgid "Page %"
+msgstr ""
+
+#: library/templates/loop-single.php:13
+#@ fastnews
+msgid "Tagged with:"
+msgstr ""
+
+#: library/templates/template-pagination.php:19
+#@ fastnews
+msgid "Previous"
+msgstr ""
+
+#: library/templates/template-pagination.php:20
+#@ fastnews
+msgid "Next"
+msgstr ""
+
+#: library/templates/template-post-navigation.php:14
+#@ fastnews
+msgid "Next Article"
+msgstr ""
+
+#: header.php:76
+#: searchform.php:3
+#@ fastnews
+msgid "Enter keyworks"
+msgstr ""
+
+#: library/front.php:256
+#@ fastnews
+msgid "Submit"
+msgstr ""
+
+#: library/front.php:257
+#@ fastnews
+msgid "Sending..."
+msgstr ""
+
+#: library/front.php:260
+#@ fastnews
+msgid "Please enter your name."
+msgstr ""
+
+#: library/front.php:261
+#: library/front.php:273
+#@ fastnews
+msgid "At least {0} characters required."
+msgstr ""
+
+#: library/front.php:264
+#@ fastnews
+msgid "Please enter your email."
+msgstr ""
+
+#: library/front.php:265
+#@ fastnews
+msgid "Please enter a valid email."
+msgstr ""
+
+#: library/front.php:268
+#@ fastnews
+msgid "Please enter your url."
+msgstr ""
+
+#: library/front.php:269
+#@ fastnews
+msgid "Please enter a valid url."
+msgstr ""
+
+#: library/front.php:272
+#@ fastnews
+msgid "Please enter a message."
+msgstr ""
+
+#: library/includes/widgets.php:373
+#: library/includes/widgets.php:641
+#: library/includes/widgets.php:814
+#: library/includes/widgets.php:989
+#: library/includes/widgets.php:1208
+#: library/includes/widgets.php:1368
+#: library/includes/widgets.php:1791
+#@ fastnews
+msgid "Latest"
+msgstr ""
+
+#: library/includes/widgets.php:462
+#: library/includes/widgets.php:679
+#@ fastnews
+msgid "Display Latest Articles Widget"
+msgstr ""
+
+#: footer.php:18
+#: library/includes/cpanel/theme-options/general.php:213
+#@ fastnews
+msgid "Copyright &copy; 2013 . All Rights Reserved. Designed by kopatheme.com."
+msgstr ""
+
+#: library/front.php:302
+#@ fastnews
+msgid "Article List Small Post Image (Kopatheme)"
+msgstr ""
+
+#: library/front.php:303
+#@ fastnews
+msgid "Article Carousel Post Image (Kopatheme)"
+msgstr ""
+
+#: library/front.php:306
+#@ fastnews
+msgid "Gallery Slider Image Size (Kopatheme)"
+msgstr ""
+
+#: library/front.php:572
+#@ fastnews
+msgid "Related Articles"
+msgstr ""
+
+#: library/front.php:751
+#@ fastnews
+msgid "About author"
+msgstr ""
+
+#: library/front.php:1787
+#: library/front.php:1793
+#: library/includes/cpanel/theme-options/general.php:148
+#@ fastnews
+msgid "Breaking News"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:5
+#@ fastnews
+msgid "Blog Slider Settings"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:10
+#@ fastnews
+msgid "Slider on Blog:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:27
+#@ fastnews
+msgid "Blog Slider category:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:28
+#@ fastnews
+msgid "Choose category to display posts in blog slider"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:30
+#: library/includes/cpanel/theme-options/general.php:154
+#@ fastnews
+msgid "Latest Posts"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:42
+#: library/includes/cpanel/theme-options/general.php:165
+#: library/includes/widgets.php:1783
+#@ fastnews
+msgid "Number of posts:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:49
+#@ fastnews
+msgid "Slider Settings"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:54
+#@ fastnews
+msgid "Effect"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:69
+#@ fastnews
+msgid "Slideshow Speed (milliseconds) - Default: 7000"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:74
+#@ fastnews
+msgid "Animation Speed (milliseconds) - Default: 600"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:84
+#@ fastnews
+msgid "Enable"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/blog-slider.php:85
+#@ fastnews
+msgid "Disable"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:48
+#@ fastnews
+msgid "Footer menu logo"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:105
+#: library/includes/cpanel/theme-options/general.php:111
+#@ fastnews
+msgid "Top Banner"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:112
+#@ fastnews
+msgid "Paste your Adsense, BSA or other ad code here to show ads on top banner."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:125
+#@ fastnews
+msgid "Header Headline"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:130
+#@ fastnews
+msgid "Header headline:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:147
+#@ fastnews
+msgid "Headline title:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:151
+#@ fastnews
+msgid "Headline category:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:152
+#@ fastnews
+msgid "Choose category to display posts in headline"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:177
+#@ fastnews
+msgid "Breadcrumb"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:181
+#@ fastnews
+msgid "Show/Hide Breadcrumb:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:9
+#@ fastnews
+msgid "Show/Hide Featured Post Thumbnail in single post"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:5
+#: library/includes/cpanel/theme-options/social-links.php:10
+#@ fastnews
+msgid "Social Links Target"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:13
+#@ fastnews
+msgid "Opens the linked document in the same frame as it was clicked"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:14
+#@ fastnews
+msgid "Opens the linked document in a new window or tab"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:66
+#@ fastnews
+msgid "Instagram URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:78
+#@ fastnews
+msgid "Youtube URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:84
+#@ fastnews
+msgid "Linkedin URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:11
+#@ fastnews
+msgid "Blog Slider"
+msgstr ""
+
+#: library/includes/widgets.php:198
+#@ fastnews
+msgid "One Half Column"
+msgstr ""
+
+#: library/includes/widgets.php:199
+#@ fastnews
+msgid "One Thirtd Column"
+msgstr ""
+
+#: library/includes/widgets.php:200
+#@ fastnews
+msgid "Two Third Column"
+msgstr ""
+
+#: library/includes/widgets.php:201
+#@ fastnews
+msgid "One Fourth Column"
+msgstr ""
+
+#: library/includes/widgets.php:202
+#@ fastnews
+msgid "Three Fourth Column"
+msgstr ""
+
+#: library/includes/widgets.php:203
+#@ fastnews
+msgid "Add Dropcaps Text"
+msgstr ""
+
+#: library/includes/widgets.php:204
+#@ fastnews
+msgid "Add A Button"
+msgstr ""
+
+#: library/includes/widgets.php:205
+#@ fastnews
+msgid "Add A Alert Box"
+msgstr ""
+
+#: library/includes/widgets.php:206
+#@ fastnews
+msgid "Add A Tabs Content"
+msgstr ""
+
+#: library/includes/widgets.php:207
+#@ fastnews
+msgid "Add A Accordions Content"
+msgstr ""
+
+#: library/includes/widgets.php:208
+#@ fastnews
+msgid "Add A Toggle Content"
+msgstr ""
+
+#: library/includes/widgets.php:209
+#@ fastnews
+msgid "Add A Contact Form"
+msgstr ""
+
+#: library/includes/widgets.php:210
+#@ fastnews
+msgid "Add A List Latest Post"
+msgstr ""
+
+#: library/includes/widgets.php:211
+#@ fastnews
+msgid "Add A List Popular Post"
+msgstr ""
+
+#: library/includes/widgets.php:212
+#@ fastnews
+msgid "Add A List Most Comment Post"
+msgstr ""
+
+#: library/includes/widgets.php:213
+#@ fastnews
+msgid "Add A List Random Post"
+msgstr ""
+
+#: library/includes/widgets.php:214
+#@ fastnews
+msgid "Add A Yoube Video Box"
+msgstr ""
+
+#: library/includes/widgets.php:215
+#@ fastnews
+msgid "Add A Vimeo Video Box"
+msgstr ""
+
+#: library/includes/widgets.php:681
+#@ fastnews
+msgid "Kopa Small Articles List"
+msgstr ""
+
+#: library/includes/widgets.php:1008
+#@ fastnews
+msgid "Number of Columns:"
+msgstr ""
+
+#: library/includes/widgets.php:1021
+#@ fastnews
+msgid "Duration of the transition (milliseconds):"
+msgstr ""
+
+#: library/includes/widgets.php:1025
+#@ fastnews
+msgid "The amount of milliseconds the carousel will pause:"
+msgstr ""
+
+#: library/includes/widgets.php:1467
+#@ fastnews
+msgid "Caption:"
+msgstr ""
+
+#: library/includes/widgets.php:1479
+#@ fastnews
+msgid "Style:"
+msgstr ""
+
+#: library/includes/widgets.php:1483
+#@ fastnews
+msgid "Normal"
+msgstr ""
+
+#: library/includes/widgets.php:1484
+#@ fastnews
+msgid "Caption"
+msgstr ""
+
+#: library/includes/widgets.php:1514
+#@ fastnews
+msgid "Display a slider of all images in one gallery format post"
+msgstr ""
+
+#: library/includes/widgets.php:1620
+#@ fastnews
+msgid "Display a slider of video post format posts"
+msgstr ""
+
+#: library/includes/widgets.php:1622
+#@ fastnews
+msgid "Kopa Video Posts Slider"
+msgstr ""
+
+#: library/includes/widgets.php:1827
+#@ fastnews
+msgid "Display mailchimp newsletter subscription form"
+msgstr ""
+
+#: library/includes/widgets.php:1829
+#@ fastnews
+msgid "Kopa Mailchimp Subscribe"
+msgstr ""
+
+#: library/includes/widgets.php:1851
+#: library/includes/widgets.php:1938
+#@ fastnews
+msgid "Subscribe to newsletter..."
+msgstr ""
+
+#: library/includes/widgets.php:1852
+#: library/includes/widgets.php:1939
+#@ fastnews
+msgid "Subscribe"
+msgstr ""
+
+#: library/includes/widgets.php:1881
+#@ fastnews
+msgid "Mailchimp Form Action:"
+msgstr ""
+
+#: library/includes/widgets.php:1886
+#@ fastnews
+msgid "Enable <strong>evil</strong> popup mode"
+msgstr ""
+
+#: library/includes/widgets.php:1889
+#: library/includes/widgets.php:1971
+#@ fastnews
+msgid "Description"
+msgstr ""
+
+#: library/includes/widgets.php:1912
+#@ fastnews
+msgid "Display Feedburner subscription form"
+msgstr ""
+
+#: library/includes/widgets.php:1914
+#@ fastnews
+msgid "Kopa Feedburner Subscribe"
+msgstr ""
+
+#: library/includes/widgets.php:1967
+#@ fastnews
+msgid "Feedburner ID (http://feeds.feedburner.com/<strong>wordpress/kopatheme</strong>):"
+msgstr ""
+
+#: library/ini.php:44
+#@ fastnews
+msgid "Blog 2"
+msgstr ""
+
+#: library/ini.php:62
+#@ fastnews
+msgid "Blog 3"
+msgstr ""
+
+#: library/ini.php:80
+#@ fastnews
+msgid "Blog 4"
+msgstr ""
+
+#: library/ini.php:98
+#@ fastnews
+msgid "Blog 5"
+msgstr ""
+
+#: library/ini.php:152
+#@ fastnews
+msgid "Page Fullwidth Widgets"
+msgstr ""
+
+#: library/ini.php:220
+#@ fastnews
+msgid "Widget Area 14"
+msgstr ""
+
+#: library/ini.php:221
+#@ fastnews
+msgid "Widget Area 15"
+msgstr ""
+
+#: library/ini.php:222
+#@ fastnews
+msgid "Widget Area 16"
+msgstr ""
+
+#: library/ini.php:223
+#@ fastnews
+msgid "Widget Area 17"
+msgstr ""
+
+#: library/ini.php:424
+#@ fastnews
+msgid "Sidebar 14"
+msgstr ""
+
+#: library/ini.php:425
+#@ fastnews
+msgid "Sidebar 15"
+msgstr ""
+
+#: library/ini.php:426
+#@ fastnews
+msgid "Sidebar 16"
+msgstr ""
+
+#: library/ini.php:427
+#@ fastnews
+msgid "Sidebar 17"
+msgstr ""
+
+#: library/templates/loop-blog-1.php:32
+#: library/templates/loop-blog-1.php:69
+#: library/templates/loop-blog-1.php:106
+#: library/templates/loop-blog.php:26
+#@ fastnews
+msgid "Continue Reading ..."
+msgstr ""
+
+#: library/templates/template-post-navigation.php:5
+#@ fastnews
+msgid "Previous Article"
+msgstr ""
+
