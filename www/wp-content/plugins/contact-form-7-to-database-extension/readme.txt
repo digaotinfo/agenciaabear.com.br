@@ -6,7 +6,7 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.2.1
 Tested up to: 4.5
-Stable tag: 2.10.11
+Stable tag: 2.10.12
 
 Saves submitted form data to the database. Export the data to a file or use short codes to display it.
 
@@ -86,6 +86,9 @@ You can always deactivate the plugin without loosing data.
 1. Admin Panel view of submitted form data
 
 == Changelog ==
+
+= 2.10.13 =
+* Improvement: Excel (.xlsx) exports for forms that include files, now have working hyperlinks to download files from the Excel spreadsheet
 
 = 2.10.12 =
 * Improvement: Plugin settings page now organized in tabs

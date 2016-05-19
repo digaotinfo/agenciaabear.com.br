@@ -88,7 +88,9 @@ $kopa_theme_options_copyright = apply_filters( 'the_content', $kopa_theme_option
             <div class="wrap-txt">
             <div id="txt-sobre">
               <div class="img-sobre"><a href="http://www.abear.com.br" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/logo-footer.png" alt="" /></a></div>
-              <div class="txt-sobre">A ABEAR foi criada em 2012 pelas cinco principais companhias aéreas brasileiras – AVIANCA, AZUL, GOL, TAM e TRIP, com a missão de estimular o hábito de voar no Brasil. A entidade tem ainda mais duas associadas: TAM Cargo, TAP e Bombardier. <a href="http://www.abear.com.br" target="_blank">Saiba mais</a></div>
+              <div class="txt-sobre">
+		A ABEAR foi criada em 2012 pelas companhias AVIANCA, AZUL, GOL, TAM (hoje LATAM) e TRIP, com a missão de estimular o 		hábito de voar no Brasil. A entidade tem ainda mais quatro associadas: Boeing, Bombardier, LATAM Cargo e TAP. 	
+		<a href="http://www.abear.com.br" target="_blank">Saiba mais</a></div>
             </div><!--end txt-sobre-->
             </div><!--end wrap-txt-->
 
