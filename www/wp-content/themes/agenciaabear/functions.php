@@ -92,3 +92,24 @@ function kopa_register_required_plugins() {
 	);
 	tgmpa( $plugins, $config );
 }
+
+
+function codex_custom_init() {
+	$args = array(
+			'public' => true,
+			'label'  => 'Enderecos',
+			'menu_position' => 5,
+			'supports' => array('title', 'editor'),
+	);
+	register_post_type( 'enderecos', $args );
+	
+	$args = array(
+			'public' => true,
+			'label'  => 'Sobre',
+			'menu_position' => 5,
+			'supports' => array('title', 'editor', 'thumbnail'),
+	);
+	register_post_type( 'sobre', $args );
+
+}
+add_action( 'init', 'codex_custom_init' );

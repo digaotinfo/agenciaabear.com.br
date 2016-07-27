@@ -1,4 +1,22 @@
 <?php
+
+$args = array(
+		'posts_per_page'	=> 1,
+		'post_type' 		=> array('sobre'),
+		'orderby' 			=> 'id',
+		'order'   			=> 'DESC'
+);
+$sobre = new WP_Query($args);
+
+$args = array(
+		'posts_per_page'	=> 3,
+		'post_type' 		=> array('enderecos'),
+		'orderby' 			=> 'id',
+		'order'   			=> 'DESC'
+);
+$end = new WP_Query($args);
+
+
 $kopa_setting = kopa_get_template_setting();
 $sidebars = $kopa_setting['sidebars'];
 $total = count( $sidebars );
@@ -87,10 +105,21 @@ $kopa_theme_options_copyright = apply_filters( 'the_content', $kopa_theme_option
 
             <div class="wrap-txt">
             <div id="txt-sobre">
-              <div class="img-sobre"><a href="http://www.abear.com.br" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/logo-footer.png" alt="" /></a></div>
-              <div class="txt-sobre">
-		A ABEAR foi criada em 2012 pelas companhias AVIANCA, AZUL, GOL, TAM (hoje LATAM) e TRIP, com a missão de estimular o 		hábito de voar no Brasil. A entidade tem ainda mais quatro associadas: Boeing, Bombardier, LATAM Cargo e TAP. 	
-		<a href="http://www.abear.com.br" target="_blank">Saiba mais</a></div>
+				<?php 
+	              	while($sobre->have_posts()):
+						$sobre->the_post();
+						$img = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full');
+						?>
+		              <div class="img-sobre">
+		              	<a href="http://www.abear.com.br" target="_blank">
+		              		<img src="<?php echo $img[0]; ?>" alt="" />
+		              	</a>
+		              </div>
+              		
+              		<div class="txt-sobre">
+						<?php the_content(); ?>
+					</div>
+				<?php endwhile;	?>
             </div><!--end txt-sobre-->
             </div><!--end wrap-txt-->
 
@@ -98,9 +127,16 @@ $kopa_theme_options_copyright = apply_filters( 'the_content', $kopa_theme_option
 
             <div id="contatos">
               <ul id="lista-contatos">
-                <li>Av. Ibirapuera, 2332 - Conj. 22 - Torre Ibirapuera I <br />Moema | 04028-002 | São Paulo | SP <br />+ 55 11 2369-6007</li>
-                <li>Av. Marechal Câmara, 160, Ed. Orly, 12º andar - sl. 1210 | 20020-080 | Rio de Janeiro | RJ <br />+ 55 21 3578-1150 </li>
-                <li>SAUS Quadra 1 - Bloco J , 10/20 - Edifício CNT - Sala 506 <br />70070-944 | Brasília | DF <br />+ 55 61 3225-5215</li>
+              
+              	<?php 
+	              	while($end->have_posts()):
+						$end->the_post();
+						?>
+						<li><?php the_content(); ?></li>	
+						<?php
+					endwhile;
+              	?>
+              
               </ul>
             </div><!--end contatos-->
 
